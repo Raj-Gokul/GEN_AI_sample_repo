@@ -6,6 +6,7 @@ genai.configure(api_key=google_api_key)
 
 model=genai.GenerativeModel('gemini-pro')
 
+print('changes here')
 
 def gemini_response(question):
     response=model.generate_content(question)
