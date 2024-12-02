@@ -1,6 +1,6 @@
 #person 1 panna changes 
 import google.generativeai as genai
-import streamlit as st
+import streamlit as ts
 #ggr 2 comment added
 
 google_api_key="AIzaSyBfd9L7ISpM03ysx7rtCmI2B5coguKmUNQ"
