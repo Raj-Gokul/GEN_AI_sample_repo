@@ -2,7 +2,7 @@
 #GGR git 1
 import google.generativeai as genai
 import streamlit as ts
-#ggr 2 comment added
+#ggr 2 comment added changes ts
 
 google_api_key="AIzaSyBfd9L7ISpM03ysx7rtCmI2B5coguKmUNQ"
 genai.configure(api_key=google_api_key)
