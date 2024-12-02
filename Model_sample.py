@@ -15,6 +15,7 @@ def gemini_response(question):
 
 
 print("this is final change ggr3")
+
 st.set_page_config(page_title="Demo")
 st.header("Model Dummy")
 input=st.text_input("inp:",key='input')
