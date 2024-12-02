@@ -1,22 +1,14 @@
-#person 1 panna changes 
-#GGR git 1
 import google.generativeai as genai
-import streamlit as ts
-#ggr 2 comment added changes ts
+import streamlit as st
 
 google_api_key="AIzaSyBfd9L7ISpM03ysx7rtCmI2B5coguKmUNQ"
 genai.configure(api_key=google_api_key)
 
 model=genai.GenerativeModel('gemini-pro')
 
-print('changes here')
-
 def gemini_response(question):
     response=model.generate_content(question)
     return response
-
-
-print("this is final change ggr3")
 
 st.set_page_config(page_title="Demo")
 st.header("Model Dummy")
