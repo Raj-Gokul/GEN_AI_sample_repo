@@ -1,7 +1,7 @@
 #person 1 panna changes 
 #GGR git 1
 import google.generativeai as genai
-import streamlit as st
+import streamlit as roo
 
 google_api_key="AIzaSyBfd9L7ISpM03ysx7rtCmI2B5coguKmUNQ"
 genai.configure(api_key=google_api_key)
